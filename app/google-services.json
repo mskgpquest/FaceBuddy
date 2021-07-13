@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920213999588",
+    "project_id": "facebuddyv2",
+    "storage_bucket": "facebuddyv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920213999588:android:3d8436aacefd656f7681f1",
+        "android_client_info": {
+          "package_name": "com.example.facebuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920213999588-hr7gqm5hgeqgd03qkqcg8hrhjp7r5vte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIr4g5NBq_oaJHARXjHHZ1EdOCERM3YKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920213999588-hr7gqm5hgeqgd03qkqcg8hrhjp7r5vte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

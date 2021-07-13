@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/imageView" android:background="@drawable/firebase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/imageView">
+        <EditText android:id="@+id/phone_number_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Enter phone" android:inputType="phone"/>
+        <Button android:id="@+id/send_ver_code_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Get Verification Code" android:textAllCaps="false"/>
+        <EditText android:id="@+id/verification_code_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Enter code received" android:digits="0123456789" android:inputType="number"/>
+        <Button android:id="@+id/verify_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Sign In"/>
+    </LinearLayout>
+</RelativeLayout>
